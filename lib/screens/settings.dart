@@ -8,7 +8,7 @@ class Settings {
   Duration focusDuration = const Duration(minutes: 27);
   Duration breakDuration = const Duration(minutes: 3);
 
-  AssetSource alarmSource = AssetSource("EarlyRiser.mp3");
+  AssetSource alarmSource = AssetSource("default.mp3");
 }
 
 class SettingsPage extends StatefulWidget {
